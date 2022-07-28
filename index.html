@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <input type="text" placeholder="Enter name" id="myname"><br>
+    <input type="number" placeholder="Enter amount" id="myamount"><br>
+    <button onclick="
+    let name=document.getElementById(&#39;myname&#39;).value;
+    document.getElementById(&#39;head&#39;).innerText=name;
+    ">write name
+    </button>
+<button onclick="
+let amount=document.getElementById(&#39;myamount&#39;).value;
+let totalZakat=amount/40;
+document.getElementById(&#39;head1&#39;).innerText=totalZakat;">calculate zakat
+
+</button>
+<h1 id="head">hamid</h1>
+<h1 id="head1">2500</h1>
+
+
+
+			
+ 
+<input type="number" placeholder="Inheritance" id="waris"><br>
+<button onclick="
+var wirasat=document.getElementById('waris').value;
+let widowshare=wirasat/8;
+document.getElementById('widow').innerText=widowshare
+">widowshare
+
+</button>
+<button onclick="
+let wirasat=document.getElementById('waris').value;
+let sonshare=wirasat/8*7;
+document.getElementById('son').innerText=sonshare
+">sonshare
+
+</button>
+ <h1 id="widow">waris1</h1>
+ <h1 id="son">waris2</h1>          
+
+
+
+
+
+
+
+</body>
+            </html>
